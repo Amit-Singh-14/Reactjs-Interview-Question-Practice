@@ -6,7 +6,10 @@ function App() {
   return (
     <>
       {/* Project 1 Accordian */}
-      <Accordian />
+      {/* <Accordian /> */}
+
+      {/* Project 2 RandomColorGenarator */}
+      <RandamColorGenator />
     </>
   );
 }
