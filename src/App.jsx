@@ -1,6 +1,7 @@
 import "./App.css";
 import { Accordian } from "./components/accordian";
 import { RandamColorGenator } from "./components/randomColorGenarator";
+import { StarRating } from "./components/starRating";
 
 function App() {
   return (
@@ -9,7 +10,10 @@ function App() {
       {/* <Accordian /> */}
 
       {/* Project 2 RandomColorGenarator */}
-      <RandamColorGenator />
+      {/* <RandamColorGenator /> */}
+
+      {/* Project 3 Star Rating */}
+      <StarRating />
     </>
   );
 }
