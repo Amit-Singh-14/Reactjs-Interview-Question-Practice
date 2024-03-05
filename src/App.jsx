@@ -16,6 +16,7 @@ function App() {
       {/* Project 3 Star Rating */}
       {/* <StarRating /> */}
 
+      {/* Projoject 4 Image Slider */}
       <ImageSlider url={"https://picsum.photos/v2/list"} page={"1"} limit={"10"} />
     </>
   );
