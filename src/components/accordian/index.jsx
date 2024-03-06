@@ -23,7 +23,7 @@ export function Accordian() {
           className=" p-5 rounded-lg bg-gray-600 text-white outline-none border-none"
           onClick={() => setEnableMultiSelection(!enableMultiSelection)}
         >
-          Enable Multi Selection
+          Enable {enableMultiSelection ? "Single" : "Multi"} Selection
         </button>
         {data && data.length > 0 ? (
           <div className="bg-white">
