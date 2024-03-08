@@ -14,7 +14,7 @@ function App() {
       {/* <RandamColorGenator /> */}
 
       {/* Project 3 Star Rating */}
-      {/* <StarRating /> */}
+      <StarRating />
 
       {/* Projoject 4 Image Slider */}
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={"1"} limit={"10"} /> */}
