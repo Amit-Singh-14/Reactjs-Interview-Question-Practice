@@ -36,8 +36,9 @@ function ImageSlider({ url, limit = 10, page = 1 }) {
   if (loading) return <div>Data is loading.......</div>;
 
   return (
-    <div className=" w-full">
-      <div className="w-[600px] flex relative rounded-3xl overflow-hidden mt-5 ml-5">
+    <div className=" w-full min-h-screen flex pt-10 items-center flex-col bg-gray-600">
+      <h1 className="text-5xl text-white">Image Slider</h1>
+      <div className="w-[600px] flex relative rounded-lg overflow-hidden mt-5 ml-5">
         <BsArrowLeftCircleFill
           className="absolute z-10 text-4xl text-white self-center left-2 cursor-pointer"
           onClick={handlePrevious}
