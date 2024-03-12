@@ -10,13 +10,15 @@ function MenuItems({ item }) {
       ...displayCurrentChildren,
       [getCurrentChildren]: !displayCurrentChildren[getCurrentChildren],
     });
+
+    // console.log(displayCurrentChildren);
   }
 
   return (
     <li className="ml-5 p-4">
       <div className="flex gap-2">
         <p>{item.label}</p>
-        {item && item.children && item.children.length && (
+        {item.children && item.children.length && (
           <span className="cursor-pointer" onClick={() => handleToggleChildren(item.label)}>
             {displayCurrentChildren[item.label] ? (
               <FaMinus color="#fff" size={20} />
@@ -26,7 +28,7 @@ function MenuItems({ item }) {
           </span>
         )}
       </div>
-      {item && item.children && item.children.length > 0 && displayCurrentChildren[item.label] && (
+      {item.children && item.children.length > 0 && displayCurrentChildren[item.label] && (
         <MenuList list={item.children} />
       )}
     </li>

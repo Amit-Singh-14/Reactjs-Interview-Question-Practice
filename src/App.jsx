@@ -1,10 +1,13 @@
 import "./App.css";
-import { Accordian } from "./components/accordian";
-import ImageSlider from "./components/imageSlider";
-import { LoadMoreData } from "./components/loadMoreData";
-import { RandamColorGenator } from "./components/randomColorGenarator";
-import { StarRating } from "./components/starRating";
-import { TreeView } from "./components/tree-view";
+import {
+  Accordian,
+  ImageSlider,
+  LightDarkModeSwitch,
+  LoadMoreData,
+  RandamColorGenator,
+  StarRating,
+  TreeView,
+} from "./components";
 
 function App() {
   return (
@@ -25,7 +28,10 @@ function App() {
       {/* <LoadMoreData /> */}
 
       {/* Project 6 Tree View */}
-      <TreeView />
+      {/* <TreeView /> */}
+
+      {/* Project 7 Light dark mode  */}
+      <LightDarkModeSwitch />
     </>
   );
 }
