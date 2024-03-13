@@ -8,6 +8,7 @@ import {
   StarRating,
   TreeView,
 } from "./components";
+import { ScrollIndicator } from "./components/scroll-indicator";
 
 function App() {
   return (
@@ -31,7 +32,10 @@ function App() {
       {/* <TreeView /> */}
 
       {/* Project 7 Light dark mode  */}
-      <LightDarkModeSwitch />
+      {/* <LightDarkModeSwitch /> */}
+
+      {/* Project 8 Scroll indicator */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </>
   );
 }
