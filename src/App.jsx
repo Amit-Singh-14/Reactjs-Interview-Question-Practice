@@ -6,9 +6,10 @@ import {
   LoadMoreData,
   RandamColorGenator,
   StarRating,
+  TestTab,
   TreeView,
 } from "./components";
-import { ScrollIndicator } from "./components/scroll-indicator";
+import GithubProfileFinder from "./components/github-profile";
 
 function App() {
   return (
@@ -35,7 +36,13 @@ function App() {
       {/* <LightDarkModeSwitch /> */}
 
       {/* Project 8 Scroll indicator */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      {/* Project 9 Custom Tab */}
+      {/* <TestTab /> */}
+
+      {/* Project 10 github profile */}
+      <GithubProfileFinder />
     </>
   );
 }

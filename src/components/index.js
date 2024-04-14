@@ -5,6 +5,8 @@ import { LoadMoreData } from "./loadMoreData";
 import { RandamColorGenator } from "./randomColorGenarator";
 import { StarRating } from "./starRating";
 import { TreeView } from "./tree-view";
+import { ScrollIndicator } from "./scroll-indicator";
+import { TestTab } from "./custom-tabs/tab-test";
 
 export {
   Accordian,
@@ -14,4 +16,6 @@ export {
   RandamColorGenator,
   StarRating,
   TreeView,
+  ScrollIndicator,
+  TestTab,
 };
