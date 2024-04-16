@@ -9,6 +9,7 @@ import {
   TestTab,
   TreeView,
 } from "./components";
+import AutoComplete from "./components/auto-complete";
 import GithubProfileFinder from "./components/github-profile";
 
 function App() {
@@ -42,7 +43,10 @@ function App() {
       {/* <TestTab /> */}
 
       {/* Project 10 github profile */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+
+      {/* Project 11 search AutoComplete */}
+      <AutoComplete />
     </>
   );
 }
