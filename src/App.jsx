@@ -11,6 +11,7 @@ import {
 } from "./components";
 import AutoComplete from "./components/auto-complete";
 import GithubProfileFinder from "./components/github-profile";
+import TicTacTor from "./components/tic-tac-toe";
 
 function App() {
   return (
@@ -46,7 +47,10 @@ function App() {
       {/* <GithubProfileFinder /> */}
 
       {/* Project 11 search AutoComplete */}
-      <AutoComplete />
+      {/* <AutoComplete /> */}
+
+      {/* Project 12 Tic-tac-toe */}
+      <TicTacTor />
     </>
   );
 }
