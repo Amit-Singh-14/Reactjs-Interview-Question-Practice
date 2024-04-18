@@ -8,10 +8,14 @@ import {
   StarRating,
   TestTab,
   TreeView,
+  AutoComplete,
+  GithubProfileFinder,
+  FeatureFlags,
+  TicTacTor,
+  ScrollIndicator,
 } from "./components";
-import AutoComplete from "./components/auto-complete";
-import GithubProfileFinder from "./components/github-profile";
-import TicTacTor from "./components/tic-tac-toe";
+
+import FeatureFlagGlobalState from "./components/featureFlag/context";
 
 function App() {
   return (
@@ -50,7 +54,12 @@ function App() {
       {/* <AutoComplete /> */}
 
       {/* Project 12 Tic-tac-toe */}
-      <TicTacTor />
+      {/* <TicTacTor /> */}
+
+      {/* Projecet 13 Feautre Flag */}
+      <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState>
     </>
   );
 }

@@ -7,6 +7,10 @@ import { StarRating } from "./starRating";
 import { TreeView } from "./tree-view";
 import { ScrollIndicator } from "./scroll-indicator";
 import { TestTab } from "./custom-tabs/tab-test";
+import AutoComplete from "./auto-complete";
+import GithubProfileFinder from "./github-profile";
+import TicTacTor from "./tic-tac-toe";
+import FeatureFlags from "./featureFlag";
 
 export {
   Accordian,
@@ -18,4 +22,8 @@ export {
   TreeView,
   ScrollIndicator,
   TestTab,
+  AutoComplete,
+  GithubProfileFinder,
+  TicTacTor,
+  FeatureFlags,
 };
